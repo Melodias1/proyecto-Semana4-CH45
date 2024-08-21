@@ -1,0 +1,44 @@
+/* :root{
+    
+        --bg-color: #A79277 ;
+        --container-bg-color: #D1BB9E;
+        --text-color: #FFF2E1 ;
+        --item-bg-color:#EAD8C0;
+        background-color: var(--bg-color) ;
+        color: var(--text-color);
+        width: 100vw;
+        height: 500vh;
+        margin: 0;
+        font-family: "New Amsterdam", sans-serif;
+    
+
+}
+
+img{
+    width: 400px;
+    height: 300px;
+    margin: 10px 0 10px 30px;
+    
+}
+.btn{
+    float:right;
+    width: 100px;
+    height:30px;
+    display:block;
+    border:3px solid #EAD8C0;
+    background:#FFF2E1;
+    color:#A79277;
+    line-height:30px;
+    text-align:center;
+    padding:0 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius:10px;
+    font-size: 20px;
+    
+    }
+    
+ .btn:hover{
+     cursor:pointer;
+    } */
+
