@@ -1,19 +1,32 @@
-/* :root{
+:root{
     
         --bg-color: #A79277 ;
         --container-bg-color: #D1BB9E;
         --text-color: #FFF2E1 ;
         --item-bg-color:#EAD8C0;
-        background-color: var(--bg-color) ;
+        background: var(--bg-color) ;
         color: var(--text-color);
-        width: 100vw;
-        height: 500vh;
         margin: 0;
         font-family: "New Amsterdam", sans-serif;
     
 
 }
 
+.navbar{
+    background: var(--bg-color);
+}
+.bg{
+    background: var(--bg-color);
+}
+
+.imagenes{
+    width: 500px;
+    height: 400px;
+    margin-left: 100px;
+
+    
+}
+/* 
 img{
     width: 400px;
     height: 300px;
@@ -40,5 +53,8 @@ img{
     
  .btn:hover{
      cursor:pointer;
-    } */
-
+    } 
+ */
+.center{
+    margin: 0 auto
+}

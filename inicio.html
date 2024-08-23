@@ -11,13 +11,13 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid ">
           <a class="navbar-brand" href="./inicio.html">Torreón</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="navbar-brand" href="./informes.html" target="_blank">Informes</a>
@@ -29,17 +29,85 @@
           </div>
         </div>
       </nav>
-    <h1>Mi Ciudad: Torreón, Coahuila</h1>
-    <p>En esta pagina podremos conocer un poco sobre la ciudad donde radico, Torreón. Hablaremos un poco sobre su historia, asi como ubicacion geografica y otra informacion relevante.</p>
+    <div class="container-fluid text-center ">
+      <div class="row">
+        <h1>Mi Ciudad: Torreón, Coahuila</h1>
+        <p>En esta pagina podremos conocer un poco sobre la ciudad donde radico, Torreón. Hablaremos un poco sobre su historia, asi como ubicacion geografica y otra informacion relevante.</p>
+      </div>
+    </div>
+    
 
-    <div>
-        <h2>Breve historia</h2>
+    <div class="container bg ">
+        <h2 class="text-center ">Breve historia</h2>
         <p>La ciudad tiene su origen más remoto hacia 1850, en el antiguo rancho “del Torreón”, nombre otorgado por una torre de vigilancia levantada en un extremo de la edificación. Esta propiedad pertenecía a don Leonardo Zuloaga, dueño de gran parte de las tierras de la comarca.
             Con el tiempo, el lugar se convirtió en una fructífera hacienda hasta la muerte de su fundador en 1865.
             La hacienda fue comprada y las demás tierras divididas. Mientras tanto, la producción de algodón siguió en aumento y la llegada del tren contribuyó al despunte económico de la región pues rompió el aislamiento de la comarca. De ser un territorio casi deshabitado, se convirtió en una población con los más altos índices de crecimiento de la nación. Su nombramiento como ciudad ocurrió el 15 de septiembre de 1907 y para entonces ya contaba con tranvía eléctrico.
             También desde los primeros años de su fundación, Torreón contaba ya con importantes industrias, relacionadas de uno u otro modo con el cultivo del algodón, tal es el caso de "La Esperanza", fábrica de aceites y jabones, la jabonera "La Unión", las fábricas textiles "La Constancia", "La Fe" y "La Alianza", así como la fundición metalúrgica Peñoles. </p>
-            <img src="./Imagenes/unnamed.jpg" alt="Ubicacion de Torreon">
-            <img src="./Imagenes/torreon-1907.jpeg" alt="torreon en 1907">
+
+            <figure class="figure mx-auto">
+              <img src="./Imagenes/unnamed.jpg" class="figure-img img-fluid rounded img-thumbnail imagenes" alt="Mapa donde se ubica torreon">
+              <figcaption class="figure-caption text-center">Ubiacion geografica</figcaption>
+            </figure>
+
+            <figure class="figure mx-auto">
+              <img src="/Imagenes/torreon-1907.jpeg" class="figure-img img-fluid rounded imagenes img-thumbnail" alt="...">
+              <figcaption class="figure-caption text-center">Torreon en 1907</figcaption>
+            </figure>
+            
+
+              
+            </div>
+    </div>
+    <div class="container bg">
+      <div class="row text-center">
+        <h2>Torreon en la actualidad</h2>
+        <div class="col-sm ">
+
+          <figure class="figure">
+            <img src="/Imagenes/torreon-actual.jpg" class="figure-img img-fluid rounded img-thumbnail" alt="...">
+            <figcaption class="figure-caption">Paseo Morelos 2024</figcaption>
+          </figure>
+         
+          
+        </div>
+        <div class="col-sm">
+          <p>Torreón es una ciudad mexicana del noreste del país, la segunda más poblada del estado de Coahuila de Zaragoza, siendo la cabecera del municipio homónimo. Cuenta con 690 193 habitantes, lo que la convierte en la vigésimo quinta ciudad más poblada de México</p>
+          <p>El municipio de Torreón es uno de los mas efectivos en el campo de la economía, pues tiene un producto interno bruto de $132 852 millones (2010), lo que lo posiciona como el sexto municipio con el mayor PIB dentro de México. La economía de la ciudad se basa en la industria de los metales la ganadera y agrícola y la industria textil, metalúrgica, química, el comercio y los servicios. Es una de las ciudades más jóvenes de México, pues en 2007 celebró sus cien años.</p>
+          <p>Los platillos típicos de Torreón como la fritada, el cabrito asado, una discada, las exquisitas carnes asadas, una tradicional reliquia, un asado de boda, las gorditas y los lonches son parte de los más recomendados, es por ello que probarlos es casi un paso obligado en tu recorrido por este destino</p>
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="container bg text-center">
+      <div class="row">
+        <h2>Datos curiosos</h2>
+        <div class="col-sm">      
+          <ol class="list-group list-group-numbered">
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+              <div class="ms-2 me-auto">
+                <div class="fw-bold">Pan Frances</div>
+                El pan frances es un pan endemico de la region, sus origenes no son muy claros, pero es muy consumido en torreón a traves de diversos platillos que deleitan el paladar de los laguneros.
+              </div>
+              
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+              <div class="ms-2 me-auto">
+                <div class="fw-bold text-center">La laguna</div>
+                Torreon se encuentra en una region denominada la laguna, que es conformada por municipios tanto del estado de Coahuila como del estado de Durango, Siendo Torreon el municipio mas grande de estos, entre los que se encuentran Gomez palacio, lerdo y matamoros
+              </div>
+              
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+              <div class="ms-2 me-auto">
+                <div class="fw-bold">Reliquia</div>
+                En la region lagunera hay una tradicion, que conciste en realizar una ofrenda a diversos santos de la religion catolica, la ofrenda usualmente incluye un rosario al santo asi como una danza, al finalizar se ofrece la "reliquia" a los vecinos y familiares, que tradicional mente se conforma de asado rojo y diversas sopas .
+              </div>
+              
+            </li>
+          </ol>
+        </div>
+      </div>
     </div>
 
 
