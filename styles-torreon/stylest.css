@@ -7,9 +7,14 @@
         background: var(--bg-color) ;
         color: var(--text-color);
         margin: 0;
-        font-family: "New Amsterdam", sans-serif;
+        
     
 
+}
+
+body {
+    --bs-body-font-family: "New Amsterdam", sans-serif;
+    background: var(--bg-color);
 }
 
 .navbar{
@@ -19,13 +24,19 @@
     background: var(--bg-color);
 }
 
-.imagenes{
-    width: 500px;
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ .imagenes{
+    width:500px;
     height: 400px;
     margin-left: 100px;
 
     
-}
+} 
 /* 
 img{
     width: 400px;
